@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #78182dbc;
+    background-color: #78182def;
     padding-left: 30px;
     
 }
@@ -26,7 +26,8 @@ a.dropdown-item {
 }
 
 .nomeEmpresa {
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 a.btn {
@@ -43,10 +44,40 @@ a.btn:hover {
 }
 
 .separador {
-    height: 30px;
-    background-color: #78182d;
+    height: 10px;
+    background-color:#af1e3e;
 }
 
 .carousel-item {
     height: 400px
+}
+
+
+
+h2 {
+   
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+p  {
+    padding: auto;
+    color:grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#features {
+    padding: 7% 15%; 
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.iconfa {
+    width: 70px;
+    margin-bottom: 10px;
+    color: #af1e3e;
 }
