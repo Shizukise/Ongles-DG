@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #78182dbc;
+    padding-left: 30px;
+    
+}
+
+.dropdown-menu.show {
+    background-color: #78182d;
+}
+
+a.dropdown-item {
+    color: white;
+}
+
+.mask {
+    padding-top: 20px;
+    height: 300px;
+    margin-top: 30px ;
+}
+
+.p-5 {
+    background-size: cover;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(pexels-cottonbro-studio-3997387.jpg);
+    
+    
+}
+
+.nomeEmpresa {
+    font-family: 'Dancing Script', cursive;;
+}
+
+a.btn {
+    background-color: #781845;
+    color:white;
+}
+
+.btn:hover {
+    background-color: #af1e3e;
+}
+
+a.btn:hover {
+    color:white;
+}
+
+.separador {
+    height: 30px;
+    background-color: #78182d;
+}
+
+.carousel-item {
+    height: 400px
+}
