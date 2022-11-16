@@ -63,21 +63,27 @@ h2 {
 
 p  {
     padding: auto;
-    color:grey;
+    color:rgb(156, 156, 156);
     font-family: 'Montserrat', sans-serif;
 }
 
 
 #features {
-    padding: 7% 15%; 
+    padding: 7% 15%;
+   
 }
 
 .feature-box {
     text-align: center;
 }
 
-.iconfa {
-    width: 70px;
-    margin-bottom: 10px;
-    color: #af1e3e;
+.fas {
+    color:#aa2743;
+    margin: 20px;
+}
+
+.fas:hover {
+    color: #e20574;
+    cursor: pointer;
+    transform: scale(1.2);
 }
