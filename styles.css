@@ -1,7 +1,16 @@
+html {
+    margin: 0;
+}
+
+
 .navbar {
     background-color: #78182def;
     padding-left: 30px;
     
+}
+
+.navbar-text {
+    color: rgba(255, 255, 255, 0.629);
 }
 
 .dropdown-menu.show {
@@ -87,3 +96,52 @@ p  {
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.contact {
+    color:#e20574;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#insta {
+    color:#aa2743;
+    margin: 20px;
+}
+
+#insta:hover {
+    color: #e20574;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#footer {
+    background-color: #202020;
+    text-align: center;
+
+}
+
+#mailto {
+    text-decoration: none;
+    color: #e20574;
+    font-size: 0.9;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.copyright1 {
+    background-color: #202020;
+}
+
+.copyright {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    font-size: 0.5rem;
+    padding-bottom: 10px;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
