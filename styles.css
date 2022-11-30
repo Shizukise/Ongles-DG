@@ -62,9 +62,21 @@ a.btn:hover {
 }
 
 .carousel-item {
-    height: 400px
+    height: 400px;
+    background-image: url("pexels-sijo-varghese-2795605.jpg");
+    background-size: cover;
+    
+    
 }
 
+.d-block {
+    background-size: cover;
+}
+
+#imagemS {
+    height:200px;
+    width: 100%;
+}
 
 
 h2 {
@@ -138,7 +150,7 @@ p  {
 
 .copyright {
     text-align: left;
-    color:white;
+    color:#e20547;
     margin-bottom: 0;
     font-size: 0.5rem;
 }
