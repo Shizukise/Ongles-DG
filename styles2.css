@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    background-color: black;
 }
 
 
@@ -63,7 +64,15 @@ a.btn:hover {
 }
 
 .carousel-item {
+    background-color: rgb(36, 35, 35);
+}
+
+.carousel-item img {
+    object-fit: contain;
+    object-position: center;
     height: 100vh;
+    overflow: hidden;
+
       
 }
 
